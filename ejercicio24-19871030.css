@@ -1,0 +1,25 @@
+section{
+    width: 385px;
+    height: 430px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+img{
+    width: 170px;
+    height: 194px;
+    margin: 10px 10px 10px 10px;
+}
+/*  si queremos ponerle difernte tamaño arriba y abajo o a los 
+ lados se escribe de la siguiente manera */
+
+ section{
+    width: 385px;
+    height: 430px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+img{
+    width: 170px;
+    height: 194px;
+    margin: 20px 40px; /* 20px margen superior e inferior y 40px el margen izquierda y derecha*/
+}

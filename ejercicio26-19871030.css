@@ -1,0 +1,45 @@
+/*TEXTOS EN CSS*/
+/*este codigo nos enseña difirentes forma de subrayado*/
+#lineaup{
+    text-decoration: overline; /*linea arriba*/
+}
+#lineamid{
+    text-decoration: line-through; /*linea medio o techada*/
+}
+#linedown{
+    text-decoration: underline;/*linea abajo o subrayada*/
+}
+/*MAYUSCULAS,MINUSCULAS O LA PRIMERA LETRA*/
+/*este codigo nos enseña a como poner las mayusculas, minusculas
+a textos en una pag web*/
+
+#mayuscula{
+    text-transform: uppercase;/*letra mayuscula*/
+    }
+
+#minuscula {
+    text-transform: lowercase;/*letra minuscula*/
+    }
+
+#primeraLetra {
+    text-transform: capitalize; /*primera letra*/
+    }
+    /* el siguiente codigo nos enseña a como aplicar espacios entre letras o caracteres*/
+    #espaciado{
+        letter-spacing: 14px;
+        font-size: 12px;
+    }
+    /* asi tambien se puede controlar el espacio de linea de un parrafo 
+    con el siguiente codigo*/
+
+    #espaciado{
+        letter-spacing: 9px;
+        font-size: 12px;
+    }
+    section>p{
+        line-height: 0.3;
+    }
+    #resaltar{
+        font-style: italic;
+        color: blueviolet;
+    }

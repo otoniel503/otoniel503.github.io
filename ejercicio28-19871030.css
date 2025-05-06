@@ -1,0 +1,77 @@
+a{
+    font-family: tohama;
+    font-size: 14px;
+    color: blue;
+    border: 3px solid gray;
+    padding: 15px;
+}
+body{
+    font-family: tohama;
+    font-size: 14px;
+}
+/*color inicial*/
+a:link{
+    color: red;
+    text-decoration: none;
+}
+/*color de enlance visitado*/
+a:visited{
+    color: green;
+    text-decoration: none;
+}
+/*color con el mouse encima del enlace*/
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+    text-decoration: underline;
+}
+
+a:link, a:visited {
+    background-color: #FF0000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+    a:hover, a:active {
+    background-color: green;
+    }
+    /*POSICIONAMIENTO CSS*/
+/*posicionamiento normal*/
+    selector{
+        position: static;
+    }
+    /*posicionamiento relativo*/
+    selector{
+        position: relative;
+       top: valortop;
+       left: valorleft;
+       right: valorright;
+       bottom: valorbottom;
+    }
+    /*posicionamiento absoluto*/
+    selector{
+position:absolute;
+top: valortop;
+left: valorleft;
+right: valorright;
+bottom: valorbottom;
+}
+/*posicionamiento fijo*/
+
+selector{
+    position: fixed;
+    top: valortop;
+    left: valorleft;
+    right: valorright;
+    bottom: valorbottom;
+    }
+    /*posicionamiento flotante*/
+    
+    selector{
+        float: posicion;
+    }

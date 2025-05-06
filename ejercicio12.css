@@ -1,0 +1,25 @@
+h1 + h2{
+    color: #0000ff;
+    font-family: tohama;
+}
+header{
+    background-color: gray;
+    border:  5px chartreuse;
+    width: 770px;
+    height: 200px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+p{
+    font-size: 10px;
+    text-indent: 2ex;
+}
+img{
+    text-decoration: none;
+    border: none;
+}
+section{
+    background-color: tomato;
+}

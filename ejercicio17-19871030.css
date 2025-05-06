@@ -1,0 +1,12 @@
+section{
+    background-color: red;
+}
+section{
+    background-color: #ff0000;
+}
+section{
+    background-color: rgb(255,0,0);
+}
+section{
+    background-color: hsl(0,100%,100%);
+}

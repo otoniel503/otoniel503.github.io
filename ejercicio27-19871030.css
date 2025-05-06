@@ -1,0 +1,33 @@
+/*ALIEACION EN CSS*/
+/*el siguiente codigo enseña alinaer texto*/
+p{
+    text-align: center;
+    border: 3px solid gray;
+    padding: 15px;
+}
+/*el siguientte codigo enseña como centrar una imagen con respecto 
+a un elemento <section>*/
+
+section{
+    width: 345px;
+    height: 220px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+table{
+margin-right:auto;
+margin-left:auto;
+border: 1px solid blue;
+}
+img{
+width: 450px;
+height: 310px;
+}
